@@ -12,7 +12,8 @@
         "ms-dotnettools.dotnet-interactive-vscode"
       ],
       "settings": {
-        "workbench.colorTheme": "Tomorrow Night Blue"
+        "workbench.colorTheme": "Tomorrow Night Blue",
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
       }
     }
   },
