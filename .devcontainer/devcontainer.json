@@ -16,7 +16,8 @@
       }
     }
   },
-  "postCreateCommand": "pip install --upgrade pip && pip install jupyter jupyterlab notebook ipykernel pandas numpy matplotlib seaborn plotly scikit-learn",
+  "postCreateCommand": "pip install --upgrade pip && pip install jupyter jupyterlab notebook ipykernel pandas numpy matplotlib seaborn plotly scikit-learn kagglehub requests",
+  "postStartCommand": "jupyter lab --ip=0.0.0.0 --no-browser --allow-root",
   "forwardPorts": [
     8888,
     8080
